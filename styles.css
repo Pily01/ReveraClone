@@ -1,8 +1,18 @@
 .header{
-  height: 230px;
+  height: 130px;
   margin-bottom: 10px;
   padding-top: 10px;
   width: 100%;
+}
+
+.bottom{
+  height: 80px;
+  margin-bottom: 10px;
+  margin-top: 60%;
+  padding-top: 10px;
+  width: 100%;
+  background-color: #111;
+  display: fixed;
 }
 
 ul {
@@ -39,12 +49,19 @@ li a:hover {
   height: 70px;
 }
 
-.container{
-  display: flexbox;
-}
 
 .column{
-  width: 40%;
+  width: 45%;
   float: left;
 }
 
+.image-left img{
+  float: left;
+  margin-right: 10px;
+}
+
+.flexed{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
